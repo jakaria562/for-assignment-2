@@ -401,5 +401,31 @@ padding-top: 30px;
    .about{
     max-width:440px ;
     margin: 0 auto;
-   }
+ }
+ .bannar{
+    max-width: 440px;
+    height: 466px;
+
+    background-image: url(assets/Image.png);
+ }
+ .bannar-container {
+    width: 750px;
+    height: 550px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10PX;
+    padding-left: 5PX;
+    padding-right: 400px;
+}
+ bannar-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #ffd84d, #ff4fd8, #7b3cff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+
+}
 }
