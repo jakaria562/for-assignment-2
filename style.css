@@ -289,3 +289,69 @@ body{
     color: #00ff88;
     padding-left: 10px;
 }
+.host{
+    height: 400px;
+    width: 1210px;
+    
+    margin-top: 240px;
+    margin-left: 200px;
+   
+}
+.host-container{
+    display: flex;
+    gap: 30px;
+    height: 280px;
+    border-radius: 20px;
+    background-color: #230E3D;
+}
+.heading-section{
+     color: white;
+     font-size: 35px;
+    font-weight: bold;
+    margin-left: 450px;
+
+}
+.host-info h3, p{
+color: #ffffff;
+padding-top: 30px;
+
+}
+.host-image{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.icon-container{
+    display: flex;
+}
+.host-icon{
+    width: 40px;
+    height: 40px;
+}
+.footer-container{
+    max-width: 1600px;
+    height: 412px;
+    background-image: url(assets/footer-bg.png);
+    border: 1px solid #1A0B2E;
+    text-align: center;
+}
+.footer-heading{
+    padding-left: 530px;
+
+}
+.footer-content{
+    width: 1360px;
+    height: 172px;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 120px;
+}
+.footer-icon-container{
+    display: flex;
+    gap: 40px;
+    color: #ffffff;
+   padding-left: 400px;
+
+}
+.copyright{
+    margin-right: 80px;
+}
