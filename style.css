@@ -1,0 +1,249 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-fonts {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    margin: 0px auto;
+}
+
+/*the part of navbar*/
+.navbar{
+    width: 1600PX;
+       background-color:#412567;
+       display: flex;
+       justify-content: space-around;
+}
+
+.logo{
+ 
+    color: white;
+    width: 219px;
+    height: 19px;
+    font-size: 35px;
+     padding-bottom: 18px;
+ 
+ 
+}
+.logo-2nd{
+      
+  background: linear-gradient(to bottom, #ff4fd8, #7b3cff);
+  background-clip: text;
+  color: transparent;
+ 
+}
+.nav-links{
+    display: flex;
+   padding-top: 20px;
+}
+
+.nav-link{
+    color: white;
+    display: flex;
+    text-decoration: none;
+}
+.nav-item{
+    list-style: none;
+      color: white;
+    display: flex;
+    margin-right: 30px;
+}
+.btn{
+    padding:25px;
+   
+}
+.primary-btn{
+    border: none;
+    font-size: 15px;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 25px;
+      background: linear-gradient(to right, #ffd84d, #ff4fd8, #7b3cff);
+       cursor: pointer;
+     
+}
+
+.bannar{
+    background-image: url(assets/hero-bg.png);
+     background-repeat: no-repeat;
+    width: 1600px;
+    height: 760px;
+  
+   
+   
+}
+.bannar-container{
+    width: 750px;
+    height: 550px;
+    margin: 0 auto;
+ 
+  text-align: center;
+    padding-top: 70PX;
+    padding-left: 250PX;
+    
+
+}
+.bannar-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #ffd84d, #ff4fd8, #7b3cff);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 100px;
+
+}
+
+
+
+
+.bannar-title{
+    padding-top: 30px;
+    color: white;
+    font-size: 3.25rem;
+    margin: 0;
+}
+.bannar-content{
+    width:550px;
+
+ margin-right: 1000px;
+}
+.bannar-para{
+    color: white;
+}
+.btn-2{
+    color:#00ff88;
+    border: 2px solid#00ff88;
+    padding: 12px;
+     background: transparent;
+    font-size: 15px;
+   
+    padding: 12px 16px;
+    border-radius: 25px;
+    
+       cursor: pointer;
+}
+.icon-1{
+   padding-right: 5px;
+}
+.icon-2{
+    padding-right: 5px;
+    padding-top: 10px;
+   
+}
+.badge{
+    background-color: #00ff88;
+    width:75px ;
+    height: 37px;
+    border-radius: 20px;
+    font-size: 20px;
+   margin-left: 310px;
+   position: relative;
+   top: 40px;
+   
+ 
+  
+}
+.badge-content{
+        padding: 5px;
+}
+#about{
+   
+    width: 1600px;
+    height: 647px;
+    border: 1px solid #1a0b2e;
+    background-color: #1A0B2E;
+}
+.about-container{
+    width: 1200px;
+    height: 222px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-heading{
+    color: white;
+}
+.section-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.about-info{
+   display: flex;
+   justify-content: space-around;
+   color: #00ff88;
+   padding-top: 120px;
+}
+.about-info h1{
+    font-size: 48px;
+    font-weight: 800px;
+}
+.about-info h4{
+  
+    color: white;
+  
+}
+.skills{
+    max-width: 1600px;
+    height: 1121px;
+    border: 1px solid #230E3D;
+    background-color: #230E3D;
+
+}
+.section-heading-2{
+    color: white;
+     font-size: 35px;
+    font-weight: bold;
+    margin-left: 450px;
+    padding-top: 120px;
+  
+
+}
+.skills-box{
+     width: 100%;
+     height: 100%;
+    max-width: 1200px;
+    margin-left: 200px;
+
+}
+.skills-box-container{
+ 
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.skill-card-1{
+  grid-column: span 1;
+          grid-row: span 2;
+          padding-top: 110px;
+          padding-left: 40px;
+          border-radius: 25px;
+          border: none;
+           box-shadow: 5px 5px 5px 5px #1b0b30;
+    
+}
+.skill-card-common{
+            grid-column: span 2;
+            grid-row: span 1;
+            padding-top: 40px;
+            padding-left: 40px;
+             border-radius: 25px;
+              border: none;
+              box-shadow: 5px 5px 5px 5px #1b0b30;
+}
+.skill-card-5{
+            grid-column: span 1;
+            grid-row: span 1;
+            padding-top: 40px;
+            padding-left: 40px;
+             border-radius: 25px;
+              border: none;
+              box-shadow: 5px 5px 5px 5px #1b0b30;
+}
